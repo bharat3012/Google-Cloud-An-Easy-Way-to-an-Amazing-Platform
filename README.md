@@ -82,7 +82,8 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  
  <img src="images/E2_1.png" /> 
  
- Here in this repository you can find a .txt file named `gcloud_gpu.txt` inside a folder `gpu` 
+Here in this repository you can find a .txt file named `gcloud_gpu.txt` inside a folder `gpu`. As of now simply speaking copy & paste each and every command lines into the google cloud terminal, you will observe that we are already on their server, the internet speed , smoothness everything is so good compared to your local machine.
+ 
  (Special Thanks `Kumar Shubham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
  
  
