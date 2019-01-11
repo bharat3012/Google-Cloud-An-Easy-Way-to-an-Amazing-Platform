@@ -70,7 +70,7 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  
  ## Most Important but Most Panicking Setup in few commands lines: :)
  
-`$ curl -O https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
+$ curl -O https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
 $ sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
 $ sudo apt-get update
 $ sudo apt-get install cuda-9-0
@@ -110,7 +110,7 @@ with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as sess:
     print (sess.run(c_c))
     print (sess.run(c_g))
 
-print 'DONE!'`
+print ('DONE!')
  (Special Thanks `Kumar Shubham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
  
  
