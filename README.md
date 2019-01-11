@@ -4,9 +4,9 @@ Best descripted way to use your google cloud account for free free free :)
 
 ## Why Clouds?
 
-<img src="images/E1.jpeg" />
+<img src="images/clouds.jpg" />
 
-                “Telescope viewfinder on top of the Eiffel Tower in the rain.” by Made By Morro on Unsplash"
+        “Telescope viewfinder on top of the Eiffel Tower in the rain.” by Made By Morro on Unsplash"
 
 
 
@@ -15,7 +15,7 @@ So you finally decided to get into the Deep Learning game only to realize that t
 
 ## What is cloud computing ?
 
-<img src="images/.png" />
+<img src="images/E2.png" />
 In cloud computing, the capital investment in building and maintaining data centers is replaced by consuming IT resources as an elastic, utility-like service from a cloud “provider” (including storage, computing, networking, data processing and analytics, application development, machine learning, and even fully managed services).
       
 
