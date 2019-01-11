@@ -89,7 +89,7 @@ $ source ~/.bashrc
 $ sudo apt-get install python3-dev python3-pip libcupti-dev
 $ sudo pip3 install tensorflow-gpu
 
-# this applies to all GPUs
+#this applies to all GPUs
 $ sudo nvidia-smi -pm 1
 
 $ python3
@@ -110,7 +110,7 @@ with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as sess:
     print (sess.run(c_g))
 
 print 'DONE!'`
- (Special Thanks `Kumar Shubham Sir` - https://github.com/krsubham48?tab=repositories : for this wonderfull series of commands) 
+ (Special Thanks `Kumar Shubham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
  
  
 
