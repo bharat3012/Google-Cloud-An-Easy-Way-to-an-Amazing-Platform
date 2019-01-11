@@ -69,30 +69,30 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  
  ## Most Important but Most Panicking Setup in few commands lines: :)
  
-`curl -O https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
-sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
-sudo apt-get update
-sudo apt-get install cuda-9-0
-sudo nvidia-smi -pm 1
+`$ curl -O https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
+$ sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
+$ sudo apt-get update
+$ sudo apt-get install cuda-9-0
+$ sudo nvidia-smi -pm 1
 
-nvidia-smi
+$ nvidia-smi
 
-wget "https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/libcudnn7_7.0.4.31-1+cuda9.0_amd64.deb"
+$ wget "https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/libcudnn7_7.0.4.31-1+cuda9.0_amd64.deb"
 
-sudo dpkg -i libcudnn7_7.0.4.31-1+cuda9.0_amd64.deb
+$ sudo dpkg -i libcudnn7_7.0.4.31-1+cuda9.0_amd64.deb
 
-echo 'export CUDA_HOME=/usr/local/cuda' >> ~/.bashrc
-echo 'export PATH=$PATH:$CUDA_HOME/bin' >> ~/.bashrc
-echo 'export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
-source ~/.bashrc
+$ echo 'export CUDA_HOME=/usr/local/cuda' >> ~/.bashrc
+$ echo 'export PATH=$PATH:$CUDA_HOME/bin' >> ~/.bashrc
+$ echo 'export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+$ source ~/.bashrc
 
-sudo apt-get install python3-dev python3-pip libcupti-dev
-sudo pip3 install tensorflow-gpu
+$ sudo apt-get install python3-dev python3-pip libcupti-dev
+$ sudo pip3 install tensorflow-gpu
 
 # this applies to all GPUs
-sudo nvidia-smi -pm 1
+$ sudo nvidia-smi -pm 1
 
-
+$ python3
 import tensorflow as tf
 
 with tf.device('/cpu:0'):
