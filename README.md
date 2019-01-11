@@ -18,6 +18,7 @@ In cloud computing, the capital investment in building and maintaining data cent
 
 ## Google Cloud Platform $300 free credit — incredible offer for Deep Learning students
 Hello friends! 
+
 If your a Machine Learning Engineer/ Deep Learning Engineer / Developer and still you have not already signed up for GCP account, you can enable GCP from any of your gmail account from here: https://cloud.google.com/free/ and get $300 free credit for first year(free wow gpu for 12 months). This credit is good enough for almost 1000 hours of Nvidia Tesla K80 GPUs or Nvidia Tesla P100 GPUs!!
 
 # Before We Begin:
@@ -30,6 +31,7 @@ If you follow our instructions below correctly, you should be able to restart yo
 <img src="images/E2_1.png" /> 
 
 # Create and Configure Your Account:
+
 If you don’t have a Google Cloud account already, create one by going to the Google Cloud homepage: https://cloud.google.com/free/ and clicking on Compute. When you get to the next page, click on the blue TRY IT FREE button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account, fill all the neccessary card details( you can use any credit card or debit card(Not SBI) as a payment method).
 
 
@@ -39,7 +41,6 @@ Click the appropriate yes or no button for the first option, and check yes for t
 
 <img src="images/E2_1.png" /> 
 
-
 Once you have entered the required information, press the blue Start my free trial button. You will be greeted by a page like this:
 Tan Tadha da dha--- Now you in  your google cloud platform!! Click on Google Cloud Platform appeared in blue colour at top left corner, and it will take you to the main dashboard:
  
@@ -48,17 +49,21 @@ Tan Tadha da dha--- Now you in  your google cloud platform!! Click on Google Clo
  
  **Important Note
 
-Some users, who have signed up for GCP recently, can see this error on starting their projects
+Some users, who have signed up for GCP recently, can see this error on starting their projects:
 
-                         “Quota ‘GPUS_ALL_REGIONS’ exceeded. Limit: 0.0 globally.”
+                         “Quota ‘GPUS_ALL_REGIONS’ exceeded. Limit: 0.0 globally.” 
 
 Please go to `Dashboard-> IAM & admin -> Quotas` -> and search for the following quota `GPUs (all region)`.
 
 In case limit for this is 0, you need to request Google to increase this to 1 or whatever value you need.
 
 ## Create a Virtual Instance:
-To launch a virtual instance:- Follow this : `Compute Engine-> VM Instances-> Create`.
-This will take you to a page that looks like the screenshot below. `(NOTE: Please carefully read the instructions in addition to looking at the screenshots. The instructions tell you generally what values I prefer to fill in :)).`
+
+To launch a virtual instance:-: `Compute Engine-> VM Instances-> Create`.
+
+This will take you to a page that looks like the screenshot below. 
+
+`(NOTE: Please carefully read the instructions in addition to looking at the screenshots. The instructions tell you generally what values I prefer to fill in :)).`
 
 <img src="images/E2_1.png" /> 
 
@@ -69,10 +74,15 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  <img src="images/E2_1.png" /> 
  
  ## Most Important but Most Panicking Setup in few commands lines: :)
+ 
  Now setup your google cloud platform:
  
- After generating a VM Instance--> Click on a key near to SSH as encircled--> `open in browser window`
-
+ After generating a VM Instance--> Click on a `key` near to SSH as encircled--> `open in browser window` --> a google `Active Cloud Shell` !!
+ 
+ 
+ <img src="images/E2_1.png" /> 
+ 
+ Here in this repository you can find a .txt file named `gcloud_gpu.txt` inside a folder `gpu` 
  (Special Thanks `Kumar Shubham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
  
  
