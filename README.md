@@ -47,7 +47,7 @@ Tan Tadha da dha--- Now you in  your google cloud platform!! Click on Google Clo
                                             Dashboard will looks like
  <img src="images/E2_1.png" /> 
  
- **Important Note
+ ## Important Note
 
 Some users, who have signed up for GCP recently, can see this error on starting their projects:
 
@@ -83,7 +83,15 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  <img src="images/E2_1.png" /> 
  
 Here in this repository you can find a .txt file named `gcloud_gpu.txt` inside a folder `gpu`. As of now simply speaking copy & paste each and every command lines into the google cloud terminal, you will observe that we are already on their server, the internet speed , smoothness everything is so good compared to your local machine.
+
+From the last two lines I have installed "tensorflow-gpu" in google-cloud and tested it in the ternminal. 
  
+For further testing I have included a `gpu_mnist_speedcheck.py`: just copy the code into terminal and press enter tadha da :), you will observe training is too fast as compared to local machines approximely 15  times faster.
+
+### Note: 
+Here you can install all the required libraries (such as pytorch, mxnet etc.) whatever you want for your deep learning projects.
+And after completing your training module , please press `Stop` near SSH( on 3 dots) to stop your instances to secure your credits for longer duration.
+  
  (Special Thanks `Kumar Shubham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
  
  
