@@ -43,7 +43,7 @@ Click the appropriate yes or no button for the first option, and check yes for t
 Once you have entered the required information, press the blue Start my free trial button. You will be greeted by a page like this:
 Tan Tadha da dha--- Now you in  your google cloud platform!! Click on Google Cloud Platform appeared in blue colour at top left corner, and it will take you to the main dashboard:
  
-                                               Dashboard will looks like
+                                            Dashboard will looks like
  <img src="images/E2_1.png" /> 
  
  **Important Note
@@ -55,3 +55,6 @@ Some users, who have signed up for GCP recently, can see this error on starting 
 Please go to Dashboard-> IAM & admin -> Quotas -> I and search for the following quota 'GPUs (all region)' .
 
 In case limit for this is 0, you need to request Google to increase this to 1 or whatever value you need.
+
+## Create a Virtual Instance:
+To launch a virtual instance:- Follow this : 'Compute Engine-> VM Instances-> Create'
