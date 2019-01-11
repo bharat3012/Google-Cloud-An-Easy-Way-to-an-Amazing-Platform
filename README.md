@@ -21,7 +21,7 @@ Hello friends!
 If your a Machine Learning Engineer/ Deep Learning Engineer / Developer and still you have not already signed up for GCP account, you can enable GCP from any of your gmail account from here: https://cloud.google.com/free/ and get $300 free credit for first year(free wow gpu for 12 months). This credit is good enough for almost 1000 hours of Nvidia Tesla K80 GPUs or Nvidia Tesla P100 GPUs!!
 
 # Before We Begin:
-# --- BIG REMINDER: Make sure you stop your instances!-----
+# --BIG REMINDER: Make sure you stop your instances!--
 
 Don’t forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances), otherwise you will run out of credits and that will be very sad. :(
 
@@ -69,48 +69,9 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  <img src="images/E2_1.png" /> 
  
  ## Most Important but Most Panicking Setup in few commands lines: :)
- 
-$ curl -O https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
-$ sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
-$ sudo apt-get update
-$ sudo apt-get install cuda-9-0
-$ sudo nvidia-smi -pm 1
+ Now setup your google cloud platform:
+ After generating a VM Instance--> Click on a key near to SSH as encircled--> `open in browser window`
 
-$ nvidia-smi
-
-$ wget "https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1604/x86_64/libcudnn7_7.0.4.31-1+cuda9.0_amd64.deb"
-
-$ sudo dpkg -i libcudnn7_7.0.4.31-1+cuda9.0_amd64.deb
-
-$ echo 'export CUDA_HOME=/usr/local/cuda' >> ~/.bashrc
-$ echo 'export PATH=$PATH:$CUDA_HOME/bin' >> ~/.bashrc
-$ echo 'export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
-$ source ~/.bashrc
-
-$ sudo apt-get install python3-dev python3-pip libcupti-dev
-$ sudo pip3 install tensorflow-gpu
-
-#this applies to all GPUs
-$ sudo nvidia-smi -pm 1
-
-$ python3
-import tensorflow as tf
-
-with tf.device('/cpu:0'):
-    a_c = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a-cpu')
-    b_c = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b-cpu')
-    c_c = tf.matmul(a_c, b_c, name='c-cpu')
-
-with tf.device('/gpu:0'):
-    a_g = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name='a-gpu')
-    b_g = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name='b-gpu')
-    c_g = tf.matmul(a_g, b_g, name='c-gpu')
-
-with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as sess:
-    print (sess.run(c_c))
-    print (sess.run(c_g))
-
-print ('DONE!')
  (Special Thanks `Kumar Shubham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
  
  
