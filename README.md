@@ -61,7 +61,8 @@ To launch a virtual instance:- Follow this : `Compute Engine-> VM Instances-> Cr
 This will take you to a page that looks like the screenshot below. `(NOTE: Please carefully read the instructions in addition to looking at the screenshots. The instructions tell you generally what values I prefer to fill in :)).`
 
 <img src="images/E2_1.png" /> 
-Name: xyz --> Zone: us-central-1-c --> (click on custoomize) CPU & Memory size: 4 --> GPU :1 -Nvdia Tesla P100 or K80 (would be affordable) --> click `change` boot disk and select `ubuntu 16.04` as defualt and 100 GB disk size-->Check and select Allow HTTP traffic and Allow HTTPS traffic --> atlast Press Create.
+
+Name: `xyz` --> Zone: `us-central-1-c` --> (click on custoomize) CPU & Memory size: `4`--> GPU :`1 -Nvdia Tesla P100 or K80` (would be affordable) --> click `change` boot disk and select `ubuntu 16.04` as defualt and `100 GB disk size` -->Check and select Allow HTTP traffic and Allow HTTPS traffic --> atlast Press `Create`.
 
 Bravo! You have successfully created your `VM instance` -- It will be set permanently fixed which contains Internal and External IP addresses ( From here your gpu start costing your credits). See below screenshot
 
