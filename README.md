@@ -4,13 +4,18 @@ Best descripted way to use your google cloud account for free free free :)
 
 ## Why Clouds?
 
-<img src="images/E2_1.png" />
+<img src="images/E1.jpeg" />
+
+                “Telescope viewfinder on top of the Eiffel Tower in the rain.” by Made By Morro on Unsplash"
+
+
 
 So you finally decided to get into the Deep Learning game only to realize that training your Deep Learning models on your laptop takes a zillion years because either you don’t have a GPU and so you have to train your models on a CPU or you are even more unlucky and are stuck with AMD. Either way, I know how it feels and it truly sucks :(
       ## Get your game on already, AMD!
 
 ## What is cloud computing ?
-<img src="images/E2_1.png" />
+
+<img src="images/.png" />
 In cloud computing, the capital investment in building and maintaining data centers is replaced by consuming IT resources as an elastic, utility-like service from a cloud “provider” (including storage, computing, networking, data processing and analytics, application development, machine learning, and even fully managed services).
       
 
