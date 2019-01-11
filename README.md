@@ -70,6 +70,7 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  
  ## Most Important but Most Panicking Setup in few commands lines: :)
  Now setup your google cloud platform:
+ 
  After generating a VM Instance--> Click on a key near to SSH as encircled--> `open in browser window`
 
  (Special Thanks `Kumar Shubham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
