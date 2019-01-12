@@ -4,7 +4,7 @@ Best descripted way to use your google cloud account for free free free :)
 
 ## Why Clouds?
 
-<img src="images/clouds.jpg" />
+<img src="images/E1.jpeg" />
 
         “Telescope viewfinder on top of the Eiffel Tower in the rain.” by Made By Morro on Unsplash"
 
@@ -15,7 +15,7 @@ So you finally decided to get into the Deep Learning game only to realize that t
 
 ## What is cloud computing ?
 
-<img src="images/E2.png" />
+<img src="images/E2.jpg" />
 In cloud computing, the capital investment in building and maintaining data centers is replaced by consuming IT resources as an elastic, utility-like service from a cloud “provider” (including storage, computing, networking, data processing and analytics, application development, machine learning, and even fully managed services).
       
 
@@ -33,24 +33,24 @@ Don’t forget to stop your instance when you are done (by clicking on the stop 
 
 If you follow our instructions below correctly, you should be able to restart your instance and the downloaded software will still be available.
 
-<img src="images/E2_1.png" /> 
+<img src="images/E3.png" /> 
 
 # Create and Configure Your Account:
 
 If you don’t have a Google Cloud account already, create one by going to the Google Cloud homepage: https://cloud.google.com/free/ and clicking on Compute. When you get to the next page, click on the blue TRY IT FREE button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account, fill all the neccessary card details( you can use any credit card or debit card(Not SBI) as a payment method).
 
 
-<img src="images/E2_1.png" /> 
+<img src="images/E4.png" /> 
 
 Click the appropriate yes or no button for the first option, and check yes for the second option after you have read the required agreements. Press the blue Agree and continue button to continue to the next page to enter the requested information (your name, billing address and credit card information). Remember to select “Individual” as “Account Type”:
 
-<img src="images/E2_1.png" /> 
+<img src="images/E5.png" /> 
 
 Once you have entered the required information, press the blue Start my free trial button. You will be greeted by a page like this:
 Tan Tadha da dha--- Now you in  your google cloud platform!! Click on Google Cloud Platform appeared in blue colour at top left corner, and it will take you to the main dashboard:
  
                                             Dashboard will looks like
- <img src="images/E2_1.png" /> 
+ <img src="images/E6.png" /> 
  
  ## Important Note
 
@@ -59,8 +59,8 @@ Some users, who have signed up for GCP recently, can see this error on starting 
                          “Quota ‘GPUS_ALL_REGIONS’ exceeded. Limit: 0.0 globally.” 
 
 Please go to `Dashboard-> IAM & admin -> Quotas` -> and search for the following quota `GPUs (all region)`.
-
-In case limit for this is 0, you need to request Google to increase this to 1 or whatever value you need.
+<img src="images/E7.png" /> 
+In case limit for this is 0, you need to request Google to increase this to 1 or whatever value you need by clicking on `Edit Quotas`.
 
 ## Create a Virtual Instance:
 
@@ -70,13 +70,13 @@ This will take you to a page that looks like the screenshot below.
 
 `(NOTE: Please carefully read the instructions in addition to looking at the screenshots. The instructions tell you generally what values I prefer to fill in :)).`
 
-<img src="images/E2_1.png" /> 
+<img src="images/E8.png" /> 
 
 Name: `xyz` --> Zone: `us-central-1-c` --> (click on custoomize) CPU & Memory size: `4`--> GPU :`1 -Nvdia Tesla P100 or K80` (would be affordable) --> click `change` boot disk and select `ubuntu 16.04` as defualt and `100 GB disk size` -->Check and select Allow HTTP traffic and Allow HTTPS traffic --> atlast Press `Create`.
 
 Bravo! You have successfully created your `VM instance` -- It will be set permanently fixed which contains Internal and External IP addresses ( From here your gpu start costing your credits). See below screenshot
 
- <img src="images/E2_1.png" /> 
+ <img src="images/E9.png" /> 
  
  ## Most Important but Most Panicking Setup in few commands lines: :)
  
@@ -85,7 +85,7 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  After generating a VM Instance--> Click on a `key` near to SSH as encircled--> `open in browser window` --> a google `Active Cloud Shell` !!
  
  
- <img src="images/E2_1.png" /> 
+ <img src="images/E10.png" /> 
  
 Here in this repository you can find a .txt file named `gcloud_gpu.txt` inside a folder `gpu`. As of now simply speaking copy & paste each and every command lines into the google cloud terminal, you will observe that we are already on their server, the internet speed , smoothness everything is so good compared to your local machine.
 
