@@ -1,5 +1,5 @@
 # Google Cloud: An-Easy-Way-to-an-Amazing-Platform
-Best descripted way to use your google cloud account for free free free :) 
+Best descripted way to use your google cloud account for free free free :alien:
 
 
 ## Why Clouds?
@@ -10,7 +10,7 @@ Best descripted way to use your google cloud account for free free free :)
 
 
 
-So you finally decided to get into the Deep Learning game only to realize that training your Deep Learning models on your laptop takes a zillion years because either you don’t have a GPU and so you have to train your models on a CPU or you are even more unlucky and are stuck with AMD. Either way, I know how it feels and it truly sucks :(
+So you finally decided to get into the Deep Learning game only to realize that training your Deep Learning models on your laptop takes a zillion years because either you don’t have a GPU and so you have to train your models on a CPU or you are even more unlucky and are stuck with AMD. Either way, I know how it feels and it truly sucks :disappointed:
        
                                           Get your game on already, AMD!
 
@@ -23,14 +23,16 @@ In cloud computing, the capital investment in building and maintaining data cent
 
 
 ## Google Cloud Platform $300 free credit — incredible offer for Deep Learning students
-Hello friends! 
 
-If your a Machine Learning Engineer/ Deep Learning Engineer / Developer and still you have not already signed up for GCP account, you can enable GCP from any of your gmail account from here: https://cloud.google.com/free/ and get $300 free credit for first year(free wow gpu for 12 months). This credit is good enough for almost 1000 hours of Nvidia Tesla K80 GPUs or Nvidia Tesla P100 GPUs!!
+Hello friends! :heart_eyes:
+
+If your are a Machine Learning Engineer/ Deep Learning Engineer / Developer and still haven't signed up for GCP account, you can enable GCP from any of your gmail account from here: https://cloud.google.com/free/ and get $300 free credit for first year(free wow gpu for 12 months). This credit is good enough for almost 1000 hours of Nvidia Tesla K80 GPUs or Nvidia Tesla P100 GPUs!!
 
 # Before We Begin:
-# --BIG REMINDER: Make sure you stop your instances!--
 
-Don’t forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances), otherwise you will run out of credits and that will be very sad. :(
+                                # --BIG REMINDER: Make sure you stop your instances!--
+
+Don’t forget to stop your instance when you are done (by clicking on the stop button at the top of the page showing your instances), otherwise you will run out of credits and that will be saddening. :pensive:
 
 If you follow our instructions below correctly, you should be able to restart your instance and the downloaded software will still be available.
 
@@ -38,7 +40,7 @@ If you follow our instructions below correctly, you should be able to restart yo
 
 # Create and Configure Your Account:
 
-If you don’t have a Google Cloud account already, create one by going to the Google Cloud homepage: https://cloud.google.com/free/ and clicking on Compute. When you get to the next page, click on the blue TRY IT FREE button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not already have an account, fill all the neccessary card details( you can use any credit card or debit card(Not SBI) as a payment method).
+If you don’t have a Google Cloud account, create one by going to the Google Cloud homepage: https://cloud.google.com/free/ and clicking on Compute. When you get to the next page, click on the blue TRY IT FREE button. If you are not logged into gmail, you will see a page that looks like the one below. Sign into your gmail account or create a new one if you do not have an account, fill all the neccessary card details( you can use any credit card or debit card(Not SBI) as a payment method).
 
 
 <img src="images/E4.png" /> 
@@ -48,7 +50,7 @@ Click the appropriate yes or no button for the first option, and check yes for t
 <img src="images/E5.png" /> 
 
 Once you have entered the required information, press the blue Start my free trial button. You will be greeted by a page like this:
-Tan Tadha da dha--- Now you in  your google cloud platform!! Click on Google Cloud Platform appeared in blue colour at top left corner, and it will take you to the main dashboard:
+Tan Tadha da dha--- Now you are in  your Google Cloud Platform!! Click on Google Cloud Platform appeared in blue colour at the top left corner, and it will take you to the main dashboard:
  
                                             Dashboard will looks like
  <img src="images/E6.png" /> 
@@ -88,14 +90,17 @@ Bravo! You have successfully created your `VM instance` -- It will be set perman
  
  <img src="images/E10.png" /> 
  
-Here in this repository you can find a .txt file named `gcloud_gpu.txt` inside a folder `gpu`. As of now simply speaking copy & paste each and every command lines into the google cloud terminal, you will observe that we are already on their server, the internet speed , smoothness everything is so good compared to your local machine.
+Here in this repository you can find a .txt file named `gcloud_gpu.txt` inside a folder `gpu`. As of now simply speaking copy & paste each and every command lines into the google cloud terminal, you will observe that we are already on their server, the internet speed , smoothness everything is far better compared to your local machine.
 
-From the last two lines I have installed "tensorflow-gpu" in google-cloud and tested it in the ternminal. 
+From the last two lines I have installed "tensorflow-gpu" in google-cloud and tested it in the terminal. 
  
-For further testing I have included a `gpu_mnist_speedcheck.py`: just copy the code into terminal and press enter tadha da :), you will observe training is too fast as compared to local machines approximely 15  times faster.
+For further testing I have included a `gpu_mnist_speedcheck.py`: just copy the code into the terminal of your gcp engine and press enter--- tadha da :sunglasses:-- and now you will observe that training is approxiemateky 15 times as compared to local machine.
 
 ### Note: 
+
 Here you can install all the required libraries (such as pytorch, mxnet etc.) whatever you want for your deep learning projects.
-And after completing your training module , please press `Stop` near SSH( on 3 dots) to stop your instances to secure your credits for longer duration.
+And after completing your training module , please press `Stop` near SSH (on 3 dots) to stop your instances to secure your credits for longer duration. 
+
+                                              Thank You Everyone  See you soon!:wave:
   
  (Special Thanks `Kumar Subham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
