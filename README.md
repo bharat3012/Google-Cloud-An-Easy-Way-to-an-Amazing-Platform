@@ -11,7 +11,8 @@ Best descripted way to use your google cloud account for free free free :)
 
 
 So you finally decided to get into the Deep Learning game only to realize that training your Deep Learning models on your laptop takes a zillion years because either you don’t have a GPU and so you have to train your models on a CPU or you are even more unlucky and are stuck with AMD. Either way, I know how it feels and it truly sucks :(
-      ## Get your game on already, AMD!
+       
+                                          Get your game on already, AMD!
 
 ## What is cloud computing ?
 
