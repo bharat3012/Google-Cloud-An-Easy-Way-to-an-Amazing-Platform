@@ -12,7 +12,7 @@ Best descripted way to use your google cloud account for free free free :alien:
 
 So you finally decided to get into the Deep Learning game only to realize that training your Deep Learning models on your laptop takes a zillion years because either you don’t have a GPU and so you have to train your models on a CPU or you are even more unlucky and are stuck with AMD. Either way, I know how it feels and it truly sucks :disappointed:
        
-                                          Get your game on already, AMD!
+                                        Get your game on already, AMD!
 
 ## What is cloud computing ?
 
@@ -101,6 +101,6 @@ For further testing I have included a `gpu_mnist_speedcheck.py`: just copy the c
 Here you can install all the required libraries (such as pytorch, mxnet etc.) whatever you want for your deep learning projects.
 And after completing your training module , please press `Stop` near SSH (on 3 dots) to stop your instances to secure your credits for longer duration. 
 
-                                              Thank You Everyone  See you soon!:wave:
+                                    Thank You Everyone  See you soon!:wave:
   
  (Special Thanks `Kumar Subham Sir - https://github.com/krsubham48?tab=repositories` : for this wonderfull series of commands) 
